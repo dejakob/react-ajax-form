@@ -1,0 +1,22 @@
+{
+  "name": "react-ajax-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "repository": "git@github.com:dejakob/react-ajax-form.git",
+  "scripts": {
+    "build": "babel lib -d build",
+    "build:watch": "babel lib -w -d build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
